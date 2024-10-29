@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            display: flex;
+        }
+        .header{
+            height: 100vh;
+            width: 200px;
+            background-color: red;
+            position: relative;
+            
+        }
+        .box{
+            position: absolute;
+            height: 70px;
+            width: 70px;
+            background-color: black;
+            border-radius: 20px;
+            top: 20px;
+            left: 70px;
+            
+        }
+       .content{
+            height: 70px;
+            width: 70px;
+            background-color: black;
+            border-radius: 20px;
+            position: absolute;
+            cursor: pointer;
+       } 
+       .footer{
+            position: relative;
+            height: 100vh;
+            width: 500px;
+            background-color: yellowgreen;
+            flex-grow:1 ;
+       }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div class="box">
+
+        </div>
+    </div>
+    <div class="footer">
+
+    </div>
+</body>
+<script src="style.js"></script>
+</html>
